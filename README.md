@@ -3,7 +3,7 @@
 ![intro](https://github.com/stefania-radu/HR-Chatbot/assets/82370258/9e0f7ad7-af49-4c98-a41a-fb9d1bb08766)
 
 ## Description
-This project utilizes a LangChain agent based on the OpenAI LLM, capable of reasoning using a set of tools, including internet search and Retrieval-Augmented Generation (RAG) using Chroma DB. The agent's reasoning ability allows it to dynamically decide the most appropriate actions and answers in various contexts. 
+This project utilizes a LangChain 🦜🔗 agent based on the OpenAI  LLM, capable of reasoning using a set of tools, including internet search and Retrieval-Augmented Generation (RAG) using Chroma DB. The agent's reasoning ability allows it to dynamically decide the most appropriate actions and answers in various contexts. 
 
 The agent can answer questions based on .pdf and .txt documents. ChatGPT was used to generate examples for an HR contract and a company policy. These examples can be found in the [data](data) folder. To retrieve relevant information, I used a Chroma-based retriever and OpenAI embeddings.
 
